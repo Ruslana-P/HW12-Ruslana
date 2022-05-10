@@ -54,13 +54,9 @@ function Hamburger (size) {
 }
 
 const hamburger = new Hamburger(small_size);
-console.log(hamburger);
 
 hamburger.addModifier(topping_mayo);
-console.log(hamburger);
-
 hamburger.addModifier(potato);
-console.log(hamburger);
 
 console.log('Price with sauce: ' + hamburger.getPrice());
 console.log('Calories with sauce: ' + hamburger.getCalories());
